@@ -1,8 +1,6 @@
-using MechanicShop.Domain.Common.Constants;
-
 namespace MechanicShop.Domain.Common;
 
-class AuditableEntity : Entity
+public class AuditableEntity : Entity
 {
     protected AuditableEntity()
     {}

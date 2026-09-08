@@ -1,7 +1,4 @@
-using System.ComponentModel;
-using System.Text.Json.Serialization;
-
-namespace MechanicShop.Domain.Common.Results;
+namespace MechanicShop.Domain.Common.Results.Abstractions;
 
 public static class Result
 {
