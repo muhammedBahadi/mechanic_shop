@@ -1,5 +1,5 @@
 using MediatR;
 
-namespace MechanicShop.Domain.Common.Constants;
+namespace MechanicShop.Domain.Common;
 
 public abstract class DomainEvent : INotification;
