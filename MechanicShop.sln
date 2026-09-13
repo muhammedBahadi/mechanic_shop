@@ -17,11 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeshanicShop.Contracts", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MechanicShop.Domain", "MechanicShop.Domain", "{8156C0C4-EF1A-4077-3544-755F88AA85ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachanicShop.Domain", "src\MechanicShop.Domain\MachanicShop.Domain.csproj", "{A0DF3A92-59A5-448D-9F0B-3D42F7862C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechanicShop.Domain", "src\MechanicShop.Domain\MechanicShop.Domain.csproj", "{A0DF3A92-59A5-448D-9F0B-3D42F7862C11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MechanicShop.Infrastructure", "MechanicShop.Infrastructure", "{023A07F4-0133-3382-388F-FD532FBAC07F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachanicShop.Infrastructure", "src\MechanicShop.Infrastructure\MachanicShop.Infrastructure.csproj", "{A605ED35-49EE-4F62-8A0E-4FFE7C273531}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechanicShop.Infrastructure", "src\MechanicShop.Infrastructure\MechanicShop.Infrastructure.csproj", "{A605ED35-49EE-4F62-8A0E-4FFE7C273531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
