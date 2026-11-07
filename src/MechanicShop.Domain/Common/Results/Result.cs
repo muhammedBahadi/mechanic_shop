@@ -1,4 +1,4 @@
-namespace MechanicShop.Domain.Common.Results.Abstractions;
+namespace MechanicShop.Domain.Common.Results;
 
 public static class Result
 {

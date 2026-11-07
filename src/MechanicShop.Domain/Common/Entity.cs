@@ -1,13 +1,18 @@
-namespace MechanicShop.Domain.Common.Constants;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MechanicShop.Domain.Common;
 
 public abstract class Entity
 {
-    public Guid Id { get; set; } 
+    public Guid Id { get; }
 
     private readonly List<DomainEvent> _domainEvents = [];
 
+    [NotMapped]
+    public IReadOnlyCollection<DomainEvent> DomainEvents => _domainEvents.AsReadOnly();
+
     protected Entity()
-    {}
+    { }
 
     protected Entity(Guid id)
     {
@@ -24,7 +29,7 @@ public abstract class Entity
         _domainEvents.Remove(domainEvent);
     }
 
-    public void CleardomainEvent(DomainEvent domainEvent)
+    public void ClearDomainEvents()
     {
         _domainEvents.Clear();
     }
